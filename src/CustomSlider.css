@@ -1,0 +1,26 @@
+.custom-slider {
+    position: relative;
+
+}
+
+.slider-container {
+    display: flex;
+    transition: transform 0.5s ease;
+
+}
+
+.slide {
+    background-color: black;
+    padding: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+    box-shadow: 0 0 20px rgba(85, 81, 81, 0.5);
+    text-align: center;
+    transition: 2s ease;
+    text-decoration: none;
+}
+
+.slide img {
+    width: 100px;
+    height: 100px;
+}
