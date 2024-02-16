@@ -37,22 +37,23 @@ const Home = ({ pokemonProp }) => {
         }
       }, [pokemonProp]);
   
-    return (
-      <div>
-        <h2>List of Pokemon</h2>
-        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+return (
+        
+      <div style={{margin: '50px 70px'}}>
+        <h2 style={{backgroundColor:'black', color:'#EDCC20', width: '150px', textAlign:'center'}}>List of Pokemon</h2>
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
           <button onClick={prevSlide}>&#9664;</button>
-          <div style={{ width: '70%' }}>
+          <div style={{ width: '70%', backgroundColor:'black',}}>
             <Slider {...settings} ref={sliderRef}>
-              {pokemonProp.map((pokemon) => (
-                <div key={pokemon.index} style={{ textAlign: 'center' }}>
+              {pokemonProp.map((pokemon) => ( 
+                <div key={pokemon.index} >
                   <Link to={`/about/${pokemon.index}`}>
                     <div>
                       <img
                         src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.index}.png`}
                         alt={pokemon.name}
                       />
-                      <p>{pokemon.name}</p>
+                       <p style={{ color: '#EDCC20' }}>{pokemon.name}</p>
                     </div>
                   </Link>
                 </div>
