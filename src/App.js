@@ -58,18 +58,18 @@ const App = () => {
            
         </div>
       </div>
-      <div className='w- full flex justify-center'>
-        <input onChange={(e) => setInputSearch(e.target.value)}
-          placeholder='Explore'
-          type='text'
-          className='mt-3 px-60  py-1 border-blue-500 rounded-3xl border-2'>
-        </input>
-      <button>  <Link to="/about">
-        <img
-      loading="lazy"
-      srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/743c724135eb977a5c23d69aafb605ff51649dc8b4cfa5a229dafc0c7ef0efb9?apiKey=3f24d196149340fe82d51ab9618c65c0&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/743c724135eb977a5c23d69aafb605ff51649dc8b4cfa5a229dafc0c7ef0efb9?apiKey=3f24d196149340fe82d51ab9618c65c0&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/743c724135eb977a5c23d69aafb605ff51649dc8b4cfa5a229dafc0c7ef0efb9?apiKey=3f24d196149340fe82d51ab9618c65c0&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/743c724135eb977a5c23d69aafb605ff51649dc8b4cfa5a229dafc0c7ef0efb9?apiKey=3f24d196149340fe82d51ab9618c65c0&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/743c724135eb977a5c23d69aafb605ff51649dc8b4cfa5a229dafc0c7ef0efb9?apiKey=3f24d196149340fe82d51ab9618c65c0&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/743c724135eb977a5c23d69aafb605ff51649dc8b4cfa5a229dafc0c7ef0efb9?apiKey=3f24d196149340fe82d51ab9618c65c0&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/743c724135eb977a5c23d69aafb605ff51649dc8b4cfa5a229dafc0c7ef0efb9?apiKey=3f24d196149340fe82d51ab9618c65c0&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/743c724135eb977a5c23d69aafb605ff51649dc8b4cfa5a229dafc0c7ef0efb9?apiKey=3f24d196149340fe82d51ab9618c65c0&"
-      className="self-center aspect-[1.02] w-[82px]"
-    />
+      <div className='w- full flex justify-center' style={{height: 70}}>
+      <input onChange={(e) => setInputSearch(e.target.value)}
+        placeholder='Explore'
+        type='text'
+        className='mt-3 px-40  py-1 border-blue-500 rounded-3xl border-2'style={{backgroundColor:'#D9D9D9', }}>
+      </input>
+    <button style = {{width: 50, height: 50, marginTop: 20, marginLeft: 40}}>  <Link to="/about">
+      <img
+    loading="lazy"
+    srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/743c724135eb977a5c23d69aafb605ff51649dc8b4cfa5a229dafc0c7ef0efb9?apiKey=3f24d196149340fe82d51ab9618c65c0&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/743c724135eb977a5c23d69aafb605ff51649dc8b4cfa5a229dafc0c7ef0efb9?apiKey=3f24d196149340fe82d51ab9618c65c0&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/743c724135eb977a5c23d69aafb605ff51649dc8b4cfa5a229dafc0c7ef0efb9?apiKey=3f24d196149340fe82d51ab9618c65c0&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/743c724135eb977a5c23d69aafb605ff51649dc8b4cfa5a229dafc0c7ef0efb9?apiKey=3f24d196149340fe82d51ab9618c65c0&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/743c724135eb977a5c23d69aafb605ff51649dc8b4cfa5a229dafc0c7ef0efb9?apiKey=3f24d196149340fe82d51ab9618c65c0&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/743c724135eb977a5c23d69aafb605ff51649dc8b4cfa5a229dafc0c7ef0efb9?apiKey=3f24d196149340fe82d51ab9618c65c0&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/743c724135eb977a5c23d69aafb605ff51649dc8b4cfa5a229dafc0c7ef0efb9?apiKey=3f24d196149340fe82d51ab9618c65c0&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/743c724135eb977a5c23d69aafb605ff51649dc8b4cfa5a229dafc0c7ef0efb9?apiKey=3f24d196149340fe82d51ab9618c65c0&"
+    className="self-center aspect-[1.02] w-[82px]"
+  />
      </Link>
     </button>
    
