@@ -77,6 +77,54 @@ const App = () => {
           <Route path="/" element={<Home pokemonProp={filteredPokemon} />}> </Route>
         }
       </Routes>
+                                   
+        <div className='footer'>
+          <img className='sliding-image' src='stufful.png' alt='stufful'/>
+          <img className='sliding-image' src='pikachu.png' alt='pikachu'/>
+          <img className='sliding-image' src='squirtle.png' alt='squirtle'/>
+          <img className='sliding-image' src='eevee.png' alt='eevee'/>
+          <img className='sliding-image' src='charmander.png' alt='charmander'/>
+          <img className='sliding-image' src='paras.png' alt='paras'/>
+          <img className='sliding-image' src='pidgey.png' alt='pidgey'/>
+          <img className='sliding-image' src='rattata.png' alt='rattata'/>
+          <img className='sliding-image' src='wartortle.png' alt='wartortle'/>
+          <img className='sliding-image' src='ekans.png' alt='ekans'/>
+          <img className='sliding-image' src='clefairy.png' alt='clefairy'/>
+          <img className='sliding-image' src='ivysaur.png' alt='ivysaur'/>
+          <img className='sliding-image' src='slowpoke.png' alt='slowpoke'/>
+          <img className='sliding-image' src='caterpie.png' alt='caterpie'/>
+          <img className='sliding-image' src='nidoran.png' alt='nidoran'/>
+          <img className='sliding-image' src='meowth.png' alt='meowth'/>
+          <img className='sliding-image' src='poliwag.png' alt='poliwag'/>
+          <img className='sliding-image' src='vulpix.png' alt='vulpix'/>
+          <img className='sliding-image' src='oddish.png' alt='oddish'/>
+          <img className='sliding-image' src='zubat.png' alt='zubat'/>
+          <img className='sliding-image' src='stufful.png' alt='stufful'/>
+          <img className='sliding-image' src='pikachu.png' alt='pikachu'/>
+          <img className='sliding-image' src='squirtle.png' alt='squirtle'/>
+          <img className='sliding-image' src='eevee.png' alt='eevee'/>
+          <img className='sliding-image' src='charmander.png' alt='charmander'/>
+          <img className='sliding-image' src='paras.png' alt='paras'/>
+          <img className='sliding-image' src='pidgey.png' alt='pidgey'/>
+          <img className='sliding-image' src='rattata.png' alt='rattata'/>
+          <img className='sliding-image' src='wartortle.png' alt='wartortle'/>
+          <img className='sliding-image' src='ekans.png' alt='ekans'/>
+          <img className='sliding-image' src='clefairy.png' alt='clefairy'/>
+          <img className='sliding-image' src='ivysaur.png' alt='ivysaur'/>
+          <img className='sliding-image' src='slowpoke.png' alt='slowpoke'/>
+          <img className='sliding-image' src='caterpie.png' alt='caterpie'/>
+          <img className='sliding-image' src='nidoran.png' alt='nidoran'/>
+          <img className='sliding-image' src='meowth.png' alt='meowth'/>
+          <img className='sliding-image' src='poliwag.png' alt='poliwag'/>
+          <img className='sliding-image' src='vulpix.png' alt='vulpix'/>
+          <img className='sliding-image' src='oddish.png' alt='oddish'/>
+          <img className='sliding-image' src='zubat.png' alt='zubat'/>
+          <img className='sliding-image' src='stufful.png' alt='stufful'/>
+          <img className='sliding-image' src='pikachu.png' alt='pikachu'/>
+          <img className='sliding-image' src='squirtle.png' alt='squirtle'/>
+          <img className='sliding-image' src='eevee.png' alt='eevee'/>
+          <img className='sliding-image' src='charmander.png' alt='charmander'/>
+        </div>
     </BrowserRouter>
   );
 };
